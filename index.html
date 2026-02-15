@@ -1,0 +1,516 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="CV / Portafolio de Cristian Sathiel Ramirez Reveles — Fullstack, IA y LowCode." />
+    <title>Cristian Sathiel Ramirez Reveles | CV</title>
+
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+<a class="skip-link" href="#contenido" data-i18n="skipToContent">Saltar al contenido</a>
+
+<header class="topbar" role="banner">
+    <div class="container topbar__inner">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">
+            <span class="brand__mark" aria-hidden="true">CR</span>
+            <span class="brand__text">Cristian Sathiel</span>
+        </a>
+
+        <div class="topbar__right">
+            <nav class="nav" aria-label="Navegación principal">
+                <button class="nav__toggle" type="button" aria-expanded="false" aria-controls="navMenu">
+                    <span class="sr-only" data-i18n="openMenu">Abrir menú</span>
+                    <span aria-hidden="true" class="nav__burger"></span>
+                </button>
+
+                <div id="navMenu" class="nav__menu">
+                    <a class="nav__link" href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+                    <a class="nav__link" href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+                    <a class="nav__link" href="#habilidades" data-i18n="nav.skills">Habilidades</a>
+                    <a class="nav__link" href="#logros" data-i18n="nav.achievements">Logros</a>
+                    <a class="nav__link" href="#educacion" data-i18n="nav.education">Educación</a>
+                    <a class="nav__link" href="#contacto" data-i18n="nav.contact">Contacto</a>
+                </div>
+            </nav>
+
+            <button id="langToggle" class="btn btn--ghost btn--small lang-toggle" type="button" aria-label="Cambiar idioma">
+                ES / EN
+            </button>
+        </div>
+    </div>
+</header>
+
+<main id="contenido">
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="container hero__grid">
+            <div class="hero__copy">
+                <p class="kicker" data-i18n="hero.kicker">Ingeniería en Sistemas · Fullstack · IA · LowCode</p>
+
+                <h1 class="hero__title">
+                    Cristian Sathiel<br />
+                    Ramirez Reveles
+                </h1>
+
+                <p class="hero__role" data-i18n="hero.role">
+                    <strong>Ingeniero en Sistemas</strong> | Fullstack Developer | IA | Herramientas LowCode
+                </p>
+
+                <p class="hero__subtitle" data-i18n="hero.subtitle">
+                    “Desarrollo soluciones web y automatizaciones con enfoque en productividad y negocio.”
+                </p>
+
+                <div class="hero__actions">
+                    <a class="btn btn--primary" href="#proyectos" data-i18n="hero.ctaProjects">Ver proyectos</a>
+
+                    <a class="btn btn--ghost" href="./assets/cv/CV SathielR v3.0(ES).pdf" download data-i18n="hero.cvEs">
+                        Descargar CV (ES)
+                    </a>
+
+                    <a class="btn btn--ghost" href="./assets/cv/CV SathielR v3.0(EN).pdf" download data-i18n="hero.cvEn">
+                        Download CV (EN)
+                    </a>
+
+                    <a class="btn btn--soft" href="#contacto" data-i18n="hero.ctaContact">Contacto</a>
+                </div>
+
+                <div class="hero__meta">
+                    <div class="pill" title="Ubicación (opcional)" data-i18n="hero.location">Zacatecas, MX</div>
+                    <div class="pill" title="Disponibilidad" data-i18n="hero.availability">Disponible para prácticas</div>
+                    <div class="pill" title="Stack principal" data-i18n="hero.mainStack">React · Node · TS</div>
+                </div>
+            </div>
+
+            <aside class="hero__card" aria-label="Tarjeta de resumen">
+                <div class="card">
+                    <h2 class="card__title" data-i18n="summary.title">Resumen rápido</h2>
+                    <ul class="card__list">
+                        <li data-i18n="summary.item1">Fullstack con enfoque en arquitectura, calidad y entrega.</li>
+                        <li data-i18n="summary.item2">Automatización (n8n) + APIs + bases de datos.</li>
+                        <li data-i18n="summary.item3">Finalista en hackathon ONE.</li>
+                    </ul>
+
+                    <div class="card__divider"></div>
+
+                    <div class="card__contact">
+                        <a class="link" href="mailto:ramirezsath@gmail.com">ramirezsath@gmail.com</a>
+                        <span class="muted">·</span>
+                        <a class="link" href="https://github/Sathiel13" target="_blank" rel="noreferrer">GitHub</a>
+                        <span class="muted">·</span>
+                        <a class="link" href="https://www.linkedin.com/in/cristian-sathiel-ramirez-reveles-78172219b" target="_blank" rel="noreferrer">LinkedIn</a>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="section">
+        <div class="container">
+            <div class="section__head">
+                <h2 class="section__title" data-i18n="about.title">Sobre mí</h2>
+                <p class="section__subtitle" data-i18n="about.subtitle">Resumen profesional</p>
+            </div>
+
+            <div class="panel">
+                <p data-i18n="about.body">
+                    Estudiante de Ingeniería en Sistemas enfocado en fullstack e IA, con experiencia construyendo soluciones reales
+                    como <strong>ClinicFlow</strong> (automatización de flujos por WhatsApp y gestión de citas) y aplicaciones web
+                    con <strong>React</strong>, <strong>Node.js/Express</strong>, <strong>TypeScript</strong> y bases de datos
+                    (<strong>MongoDB/PostgreSQL/SQLite</strong>). Finalista en hackathon ONE, con enfoque en arquitectura, calidad
+                    y entrega. Busco prácticas profesionales para contribuir en desarrollo de software y escalar productos.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section section--alt">
+        <div class="container">
+            <div class="section__head">
+                <h2 class="section__title" data-i18n="projects.title">Proyectos destacados</h2>
+                <p class="section__subtitle" data-i18n="projects.subtitle">Selección de trabajos con impacto y stack real</p>
+            </div>
+
+            <div class="grid grid--cards">
+                <!-- ClinicFlow -->
+                <article class="project card">
+                    <header class="project__head">
+                        <h3 class="project__title">ClinicFlow</h3>
+                        <p class="project__tag" data-i18n="projects.clinicflow.tag">Automatización WhatsApp · Citas · SaaS</p>
+                    </header>
+
+                    <p class="project__desc" data-i18n="projects.clinicflow.desc">
+                        Sistema de automatización de citas médicas por WhatsApp para clínicas dentales.
+                    </p>
+
+                    <div class="project__cols">
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.features">Funcionalidades</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.clinicflow.f1">Agenda automática de citas.</li>
+                                <li data-i18n="projects.clinicflow.f2">Gestión de pacientes.</li>
+                                <li data-i18n="projects.clinicflow.f3">Integración con Google Calendar.</li>
+                                <li data-i18n="projects.clinicflow.f4">Respuestas automatizadas.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.stack">Stack</h4>
+                            <ul class="chips">
+                                <li>Node.js</li>
+                                <li>PostgreSQL</li>
+                                <li>n8n</li>
+                                <li>WhatsApp Cloud API</li>
+                                <li>Docker</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project__cols">
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.role">Rol</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.clinicflow.r1">Arquitectura completa del sistema.</li>
+                                <li data-i18n="projects.clinicflow.r2">Diseño de base de datos multi-tenant.</li>
+                                <li data-i18n="projects.clinicflow.r3">Automatización de flujos.</li>
+                                <li data-i18n="projects.clinicflow.r4">Integración de APIs.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.impact">Impacto</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.clinicflow.i1">Implementado con clínicas reales.</li>
+                                <li data-i18n="projects.clinicflow.i2">Proyecto SaaS en fase de validación.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <footer class="project__foot">
+                        <a class="btn btn--small btn--soft" href="#contacto" data-i18n="projects.askDemo">Pedir demo</a>
+                        <a class="btn btn--small btn--ghost" href="#contacto" data-i18n="projects.techDetails">Detalles técnicos</a>
+                    </footer>
+                </article>
+
+                <!-- Rep-X -->
+                <article class="project card">
+                    <header class="project__head">
+                        <h3 class="project__title">Rep-X</h3>
+                        <p class="project__tag" data-i18n="projects.repx.tag">Plataforma web fullstack · E-commerce</p>
+                    </header>
+
+                    <p class="project__desc" data-i18n="projects.repx.desc">
+                        Plataforma web de comercio electrónico desarrollada con arquitectura MERN.
+                    </p>
+
+                    <div class="project__cols">
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.features">Funcionalidades</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.repx.f1">Registro de usuarios.</li>
+                                <li data-i18n="projects.repx.f2">Carrito de compras.</li>
+                                <li data-i18n="projects.repx.f3">Panel de administración.</li>
+                                <li data-i18n="projects.repx.f4">Gestión de productos y órdenes.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.stack">Stack</h4>
+                            <ul class="chips">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>Express</li>
+                                <li>MongoDB</li>
+                                <li>Tailwind</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project__cols">
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.role">Rol</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.repx.r1">Desarrollo fullstack.</li>
+                                <li data-i18n="projects.repx.r2">Diseño de base de datos.</li>
+                                <li data-i18n="projects.repx.r3">Implementación del panel administrativo.</li>
+                                <li data-i18n="projects.repx.r4">Integración de métricas y gráficos.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.impact">Impacto</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.repx.i1">Proyecto completo con arquitectura real de e-commerce.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <footer class="project__foot">
+                        <a class="btn btn--small btn--soft" href="#contacto" data-i18n="projects.requestRepo">Solicitar repositorio</a>
+                        <a class="btn btn--small btn--ghost" href="#contacto" data-i18n="projects.seeApproach">Ver enfoque</a>
+                    </footer>
+                </article>
+
+                <!-- Flight Predictor -->
+                <article class="project card">
+                    <header class="project__head">
+                        <h3 class="project__title">Flight Predictor</h3>
+                        <p class="project__tag" data-i18n="projects.flight.tag">Hackathon ONE · IA · API</p>
+                    </header>
+
+                    <p class="project__desc" data-i18n="projects.flight.desc">
+                        Sistema de predicción de vuelos desarrollado durante el hackathon ONE, integrando modelos de predicción y API backend.
+                    </p>
+
+                    <div class="project__cols">
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.features">Funcionalidades</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.flight.f1">Predicción de tiempos de vuelo.</li>
+                                <li data-i18n="projects.flight.f2">API para consultas.</li>
+                                <li data-i18n="projects.flight.f3">Integración con modelo en Python.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.stack">Stack</h4>
+                            <ul class="chips">
+                                <li>Java</li>
+                                <li>Python</li>
+                                <li>API REST</li>
+                                <li data-i18n="projects.flight.stackModel">Modelo de predicción</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project__cols">
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.role">Rol</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.flight.r1">Desarrollo de la API.</li>
+                                <li data-i18n="projects.flight.r2">Integración con el modelo.</li>
+                                <li data-i18n="projects.flight.r3">Trabajo en equipo durante hackathon.</li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <h4 class="mini-title" data-i18n="projects.impact">Impacto</h4>
+                            <ul class="list">
+                                <li data-i18n="projects.flight.i1">Proyecto finalista en hackathon ONE.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <footer class="project__foot">
+                        <a class="btn btn--small btn--soft" href="#logros" data-i18n="projects.seeAchievement">Ver logro</a>
+                        <a class="btn btn--small btn--ghost" href="#contacto" data-i18n="projects.askDetails">Preguntar detalles</a>
+                    </footer>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="habilidades" class="section">
+        <div class="container">
+            <div class="section__head">
+                <h2 class="section__title" data-i18n="skills.title">Habilidades técnicas</h2>
+                <p class="section__subtitle" data-i18n="skills.subtitle">Stack y herramientas</p>
+            </div>
+
+            <div class="grid grid--skills">
+                <div class="card">
+                    <h3 class="card__title" data-i18n="skills.languages">Lenguajes</h3>
+                    <ul class="chips">
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>Python</li>
+                        <li>Go</li>
+                        <li>Java</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card__title" data-i18n="skills.frontend">Frontend</h3>
+                    <ul class="chips">
+                        <li>React</li>
+                        <li>Tailwind</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card__title" data-i18n="skills.backend">Backend</h3>
+                    <ul class="chips">
+                        <li>Node.js</li>
+                        <li>Express</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card__title" data-i18n="skills.databases">Bases de datos</h3>
+                    <ul class="chips">
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>SQLite</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card__title" data-i18n="skills.tools">Herramientas</h3>
+                    <ul class="chips">
+                        <li>Git</li>
+                        <li>Docker</li>
+                        <li>Linux</li>
+                        <li>n8n</li>
+                        <li>Cloudinary</li>
+                        <li>Render</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOGROS -->
+    <section id="logros" class="section section--alt">
+        <div class="container">
+            <div class="section__head">
+                <h2 class="section__title" data-i18n="ach.title">Certificaciones y logros</h2>
+                <p class="section__subtitle" data-i18n="ach.subtitle">Formación y resultados</p>
+            </div>
+
+            <div class="grid grid--two">
+                <div class="card">
+                    <h3 class="card__title" data-i18n="ach.certs">Certificaciones</h3>
+                    <ul class="list">
+                        <li>Bootcamp Centro LLM's</li>
+                        <li>ONE Tech Foundation</li>
+                        <li>OCI Associate</li>
+                    </ul>
+                </div>
+
+                <div class="card">
+                    <h3 class="card__title" data-i18n="ach.awards">Logros</h3>
+                    <ul class="list">
+                        <li data-i18n="ach.award1">Hackathon NoCountry – Finalista</li>
+                        <li data-i18n="ach.award2">Hackathon ONE – Finalista (Flight Predictor)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCACION -->
+    <section id="educacion" class="section">
+        <div class="container">
+            <div class="section__head">
+                <h2 class="section__title" data-i18n="edu.title">Educación</h2>
+                <p class="section__subtitle" data-i18n="edu.subtitle">Trayectoria académica</p>
+            </div>
+
+            <div class="card education">
+                <div class="education__main">
+                    <h3 class="education__title" data-i18n="edu.degree">Ingeniería en Sistemas Computacionales</h3>
+                    <p class="muted" data-i18n="edu.school">Instituto Tecnológico de Zacatecas</p>
+                </div>
+
+                <div class="education__meta">
+                    <div class="pill" data-i18n="edu.grad">Graduación estimada: Noviembre 2026</div>
+                    <div class="pill" data-i18n="edu.gpa">Promedio: 85.0</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta">
+        <div class="container">
+            <div class="cta__box">
+                <div class="cta__text">
+                    <h2 class="cta__title" data-i18n="cta.title">¿Colaboramos?</h2>
+                    <p class="cta__subtitle" data-i18n="cta.subtitle">
+                        Estoy disponible para prácticas profesionales o proyectos de desarrollo.<br />
+                        Si te interesa colaborar, contáctame.
+                    </p>
+                </div>
+
+                <div class="cta__actions">
+                    <a class="btn btn--primary" href="./assets/cv/CV SathielR v3.0(ES).pdf" download data-i18n="cta.cvEs">
+                        Descargar CV (ES)
+                    </a>
+                    <a class="btn btn--primary" href="./assets/cv/CV SathielR v3.0(EN).pdf" download data-i18n="cta.cvEn">
+                        Download CV (EN)
+                    </a>
+                    <a class="btn btn--ghost" href="#contacto" data-i18n="cta.contact">Contactar</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section--alt">
+        <div class="container">
+            <div class="section__head">
+                <h2 class="section__title" data-i18n="contact.title">Contacto</h2>
+                <p class="section__subtitle" data-i18n="contact.subtitle">Rápido y directo</p>
+            </div>
+
+            <div class="grid grid--two">
+                <div class="card">
+                    <h3 class="card__title" data-i18n="contact.linksTitle">Enlaces</h3>
+                    <ul class="list">
+                        <li><strong data-i18n="contact.emailLabel">Email:</strong> <a class="link" href="mailto:ramirezsath@gmail.com">ramirezsath@gmail.com</a></li>
+                        <li><strong data-i18n="contact.githubLabel">GitHub:</strong> <a class="link" href="https://github/Sathiel13" target="_blank" rel="noreferrer">https://github/Sathiel13</a></li>
+                        <li><strong data-i18n="contact.linkedinLabel">LinkedIn:</strong> <a class="link" href="https://www.linkedin.com/in/cristian-sathiel-ramirez-reveles-78172219b" target="_blank" rel="noreferrer" data-i18n="contact.profile">Perfil</a></li>
+                    </ul>
+                </div>
+
+                <form class="card form" id="contactForm">
+                    <h3 class="card__title" data-i18n="contact.formTitle">Escríbeme</h3>
+
+                    <label class="field">
+                        <span class="field__label" data-i18n="contact.name">Nombre</span>
+                        <input class="field__input" name="name" type="text" placeholder="Tu nombre" autocomplete="name" required data-i18n-placeholder="contact.namePh" />
+                    </label>
+
+                    <label class="field">
+                        <span class="field__label" data-i18n="contact.email">Correo</span>
+                        <input class="field__input" name="email" type="email" placeholder="tu-correo@ejemplo.com" autocomplete="email" required data-i18n-placeholder="contact.emailPh" />
+                    </label>
+
+                    <label class="field">
+                        <span class="field__label" data-i18n="contact.message">Mensaje</span>
+                        <textarea class="field__input field__textarea" name="message" rows="5" placeholder="Cuéntame sobre la oportunidad o proyecto…" required data-i18n-placeholder="contact.messagePh"></textarea>
+                    </label>
+
+                    <button class="btn btn--primary" type="submit" data-i18n="contact.send">Enviar</button>
+                    <p class="form__hint muted" data-i18n="contact.hint">Esto abrirá tu cliente de correo no envia datos desde aqui.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="footer" role="contentinfo">
+    <div class="container footer__inner">
+        <p class="footer__copy">
+            <strong>Cristian Sathiel Ramirez Reveles</strong> · <span id="year">2026</span>
+        </p>
+
+        <div class="footer__links">
+            <a class="link" href="https://github/Sathiel13" target="_blank" rel="noreferrer">GitHub</a>
+            <a class="link" href="https://www.linkedin.com/in/cristian-sathiel-ramirez-reveles-78172219b" target="_blank" rel="noreferrer">LinkedIn</a>
+            <a class="link" href="mailto:ramirezsath@gmail.com">Email</a>
+        </div>
+    </div>
+</footer>
+
+<script src="./js/main.js"></script>
+</body>
+</html>
